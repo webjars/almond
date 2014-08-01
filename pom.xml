@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -13,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>almond</artifactId>
-    <version>0.2.9-SNAPSHOT</version>
+    <version>0.2.9</version>
 
     <name>almond</name>
     <description>WebJar for Almond</description>
@@ -51,7 +49,7 @@
         <url>http://github.com/webjars/almond</url>
         <connection>scm:git:https://github.com/webjars/almond.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/almond.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>almond-0.2.9</tag>
     </scm>
 
     <build>
@@ -89,9 +87,9 @@
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/almond-${upstream.version}">
-                                        <exclude name="tests/**"/>
-                                        <exclude name="bower.json"/>
-                                        <exclude name="shrinktest.sh"/>
+                                        <exclude name="tests/**" />
+                                        <exclude name="bower.json" />
+                                        <exclude name="shrinktest.sh" />
                                     </fileset>
                                 </move>
                             </target>
