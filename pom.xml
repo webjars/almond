@@ -48,9 +48,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/WEBJAR_ID</url>
-        <connection>scm:git:https://github.com/webjars/WEBJAR_ID.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/WEBJAR_ID.git</developerConnection>
+        <url>http://github.com/webjars/almond</url>
+        <connection>scm:git:https://github.com/webjars/almond.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/almond.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
